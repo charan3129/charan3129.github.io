@@ -1,14 +1,14 @@
 - name: dbt E-Commerce Warehouse
   description: Production-ready Kimball star schema warehouse with dbt and Snowflake. 35+ automated tests, SCD Type 2 snapshots, CI/CD pipeline.
   tech: dbt, Snowflake, SQL, Jinja, GitHub Actions
-  url: https://github.com/charan3129/DBT_Ecommerce_Warehouse
+  url: https://github.com/charan3129/dbt-Analytics-Engineering-Project
   image: assets/img/proj-dbt.svg
   highlight: true
 
 - name: Real-Time Retail Pipeline
   description: Streaming and batch pipeline ingesting retail events via Kafka, processing with PySpark, loading to Snowflake with medallion architecture.
   tech: Kafka, PySpark, Snowflake, Airflow, Docker, Streamlit
-  url: https://github.com/charan3129
+  url: https://github.com/charan3129/Real_Time_Retail_Pipeline
   image: assets/img/proj-pipeline.svg
   highlight: true
 
