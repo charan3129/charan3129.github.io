@@ -1,0 +1,27 @@
+- title: Data Engineer
+  company: Walmart
+  location: USA
+  period: Jul 2025 - Present
+  bullets:
+    - Architected a cloud-based data lake on ADLS Gen2, integrating 10+ retail systems for 50+ stakeholders
+    - Engineered 20+ automated ETL pipelines using Azure Data Factory, eliminating 15 hrs/week of manual work
+    - Led migration to event-driven pipelines using Kafka, increasing throughput by 40%
+    - Optimized PySpark jobs through partitioning and join tuning, cutting runtime by 35%
+
+- title: Data Engineer (Internship)
+  company: Walmart
+  location: USA
+  period: May 2024 - Dec 2024
+  bullets:
+    - Migrated retail datasets to Snowflake with Snowpipe, reducing query latency by 30%
+    - Built ETL workflows using PySpark and ADF, processing 2TB+ daily with 99.5% uptime
+    - Established automated validation checks resolving discrepancies across 3+ downstream systems
+
+- title: Data Engineer
+  company: Maxgen Technologies
+  location: India
+  period: Aug 2021 - Jul 2023
+  bullets:
+    - Modernized ETL from on-prem SQL Server to cloud-native Spark, boosting reliability by 30%
+    - Processed 5TB daily transactional records using HDFS and MapReduce with zero data loss
+    - Designed Star and Snowflake schemas with SCD, enabling 20% faster downstream analytics

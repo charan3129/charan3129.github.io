@@ -1,0 +1,14 @@
+- category: Cloud & Warehousing
+  items: Azure (ADF, Databricks, Synapse, ADLS Gen2), Snowflake, AWS (S3, Redshift), BigQuery
+
+- category: Big Data & Streaming
+  items: PySpark, Kafka, Event Hubs, Hive, HDFS
+
+- category: Languages & Tools
+  items: Python, SQL, Spark SQL, Airflow, dbt, Docker, Git, CI/CD, Terraform
+
+- category: Data Modeling
+  items: ETL/ELT, Kimball Star Schema, SCD Type I/II, Lakehouse Architecture, Delta Lake
+
+- category: Visualization
+  items: Power BI, Tableau, Looker, Streamlit

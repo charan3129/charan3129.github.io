@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200" viewBox="0 0 400 200">
+<rect width="400" height="200" rx="12" fill="#0c1220"/>
+<circle cx="50" cy="42" r="16" fill="#0a1a0a" stroke="#4ade80" stroke-width="1"/>
+<circle cx="50" cy="42" r="5" fill="#4ade80"/>
+<text x="50" y="70" text-anchor="middle" fill="#4ade80" font-size="8">HEALTHY</text>
+<circle cx="135" cy="42" r="16" fill="#1a1a0a" stroke="#fbbf24" stroke-width="1"/>
+<circle cx="135" cy="42" r="5" fill="#fbbf24"/>
+<text x="135" y="70" text-anchor="middle" fill="#fbbf24" font-size="8">WARNING</text>
+<circle cx="220" cy="42" r="16" fill="#1a0a0a" stroke="#ef4444" stroke-width="1"/>
+<circle cx="220" cy="42" r="5" fill="#ef4444"/>
+<text x="220" y="70" text-anchor="middle" fill="#ef4444" font-size="8">CRITICAL</text>
+<text x="330" y="35" text-anchor="middle" fill="#6b7d96" font-size="8">SLA compliance</text>
+<rect x="290" y="42" width="80" height="8" rx="4" fill="#1a2744"/>
+<rect x="290" y="42" width="70" height="8" rx="4" fill="#00d4aa"/>
+<text x="330" y="65" text-anchor="middle" fill="#00d4aa" font-size="11" font-weight="bold">98.5%</text>
+<rect x="18" y="90" width="85" height="32" rx="4" fill="#091a14" stroke="#0f6e56" stroke-width="0.5"/>
+<text x="60" y="106" text-anchor="middle" fill="#00d4aa" font-size="8">freshness</text>
+<text x="60" y="118" text-anchor="middle" fill="#6b7d96" font-size="7">60 min max</text>
+<rect x="110" y="90" width="85" height="32" rx="4" fill="#081520" stroke="#1a3050" stroke-width="0.5"/>
+<text x="152" y="106" text-anchor="middle" fill="#38bdf8" font-size="8">volume</text>
+<text x="152" y="118" text-anchor="middle" fill="#6b7d96" font-size="7">1K+ rows/hr</text>
+<rect x="202" y="90" width="85" height="32" rx="4" fill="#140a1e" stroke="#3d2060" stroke-width="0.5"/>
+<text x="244" y="106" text-anchor="middle" fill="#a855f7" font-size="8">schema</text>
+<text x="244" y="118" text-anchor="middle" fill="#6b7d96" font-size="7">drift check</text>
+<rect x="294" y="90" width="85" height="32" rx="4" fill="#1a1008" stroke="#5c3a10" stroke-width="0.5"/>
+<text x="336" y="106" text-anchor="middle" fill="#fb923c" font-size="8">anomaly</text>
+<text x="336" y="118" text-anchor="middle" fill="#6b7d96" font-size="7">Z-score</text>
+<rect x="18" y="138" width="362" height="28" rx="4" fill="#1a0808" stroke="#3d1515" stroke-width="0.5"/>
+<circle cx="34" cy="152" r="4" fill="#ef4444"/>
+<text x="48" y="156" fill="#ef4444" font-size="8" font-weight="bold">ALERT</text>
+<text x="90" y="156" fill="#6b7d96" font-size="7">fact_orders row count dropped 45% - Slack notification sent</text>
+<text x="200" y="185" text-anchor="middle" fill="#4a5568" font-size="7">YAML-configurable | Python | Airflow | Streamlit | Docker</text>
+</svg>

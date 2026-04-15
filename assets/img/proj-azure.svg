@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200" viewBox="0 0 400 200">
+<rect width="400" height="200" rx="12" fill="#0c1220"/>
+<rect x="15" y="15" width="370" height="170" rx="10" fill="none" stroke="#1a3050" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="40" y="32" fill="#38bdf8" font-size="8" opacity="0.6">Azure Cloud</text>
+<rect x="30" y="50" width="65" height="36" rx="5" fill="#081520" stroke="#38bdf8" stroke-width="0.5"/>
+<text x="62" y="70" text-anchor="middle" fill="#38bdf8" font-size="9" font-weight="bold">ADF</text>
+<text x="62" y="82" text-anchor="middle" fill="#6b7d96" font-size="7">ingest</text>
+<text x="104" y="66" fill="#4a5568" font-size="9">&gt;</text>
+<rect x="115" y="50" width="65" height="36" rx="5" fill="#091a14" stroke="#00d4aa" stroke-width="0.5"/>
+<text x="147" y="70" text-anchor="middle" fill="#00d4aa" font-size="9" font-weight="bold">ADLS</text>
+<text x="147" y="82" text-anchor="middle" fill="#6b7d96" font-size="7">lake</text>
+<text x="189" y="66" fill="#4a5568" font-size="9">&gt;</text>
+<rect x="200" y="50" width="80" height="36" rx="5" fill="#1a1008" stroke="#fb923c" stroke-width="0.5"/>
+<text x="240" y="70" text-anchor="middle" fill="#fb923c" font-size="8" font-weight="bold">Databricks</text>
+<text x="240" y="82" text-anchor="middle" fill="#6b7d96" font-size="7">transform</text>
+<text x="289" y="66" fill="#4a5568" font-size="9">&gt;</text>
+<rect x="300" y="50" width="65" height="36" rx="5" fill="#140a1e" stroke="#a855f7" stroke-width="0.5"/>
+<text x="332" y="70" text-anchor="middle" fill="#a855f7" font-size="9" font-weight="bold">Synapse</text>
+<text x="332" y="82" text-anchor="middle" fill="#6b7d96" font-size="7">serve</text>
+<rect x="115" y="105" width="250" height="20" rx="3" fill="#120e05" stroke="#fb923c" stroke-width="0.3"/>
+<text x="240" y="119" text-anchor="middle" fill="#fb923c" font-size="8">Gold - Analytics Ready</text>
+<rect x="115" y="128" width="250" height="20" rx="3" fill="#091a14" stroke="#00d4aa" stroke-width="0.3"/>
+<text x="240" y="142" text-anchor="middle" fill="#00d4aa" font-size="8">Silver - Cleaned</text>
+<rect x="115" y="151" width="250" height="20" rx="3" fill="#081520" stroke="#38bdf8" stroke-width="0.3"/>
+<text x="240" y="165" text-anchor="middle" fill="#38bdf8" font-size="8">Bronze - Raw Ingestion</text>
+<text x="65" y="138" text-anchor="middle" fill="#4a5568" font-size="8">Delta Lake</text>
+<text x="65" y="152" text-anchor="middle" fill="#4a5568" font-size="8">Medallion</text>
+</svg>

@@ -1,0 +1,14 @@
+title: Sai Charan Pulugam
+description: Data Engineer | Python, SQL, PySpark, Azure, Snowflake, Kafka, Airflow, dbt
+baseurl: ""
+url: "https://charan3129.github.io"
+
+markdown: kramdown
+theme: null
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

@@ -1,0 +1,34 @@
+- name: dbt E-Commerce Warehouse
+  description: Production-ready Kimball star schema warehouse with dbt and Snowflake. 35+ automated tests, SCD Type 2 snapshots, CI/CD pipeline.
+  tech: dbt, Snowflake, SQL, Jinja, GitHub Actions
+  url: https://github.com/charan3129/DBT_Ecommerce_Warehouse
+  image: assets/img/proj-dbt.svg
+  highlight: true
+
+- name: Real-Time Retail Pipeline
+  description: Streaming and batch pipeline ingesting retail events via Kafka, processing with PySpark, loading to Snowflake with medallion architecture.
+  tech: Kafka, PySpark, Snowflake, Airflow, Docker, Streamlit
+  url: https://github.com/charan3129
+  image: assets/img/proj-pipeline.svg
+  highlight: true
+
+- name: Azure Cloud Lakehouse
+  description: End-to-end Azure Lakehouse with ADF ingestion, Databricks transformation, ADLS Gen2 storage, and Synapse analytics layer.
+  tech: Azure ADF, Databricks, ADLS Gen2, Synapse, Delta Lake, Terraform
+  url: https://github.com/charan3129
+  image: assets/img/proj-azure.svg
+  highlight: false
+
+- name: Healthcare Data Pipeline
+  description: Automated pipeline pulling CMS Medicare and FDA API data into Snowflake with dbt transformations and quality monitoring.
+  tech: Python, Snowflake, dbt, Airflow, Great Expectations, Streamlit
+  url: https://github.com/charan3129
+  image: assets/img/proj-healthcare.svg
+  highlight: false
+
+- name: Data Quality Framework
+  description: YAML-configurable monitoring framework with freshness, volume, schema, and anomaly detection monitors plus Slack alerts.
+  tech: Python, SQL, Airflow, Slack API, Streamlit, Docker
+  url: https://github.com/charan3129
+  image: assets/img/proj-quality.svg
+  highlight: false
