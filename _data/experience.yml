@@ -3,25 +3,32 @@
   location: USA
   period: Jul 2025 - Present
   bullets:
-    - Architected a cloud-based data lake on ADLS Gen2, integrating 10+ retail systems for 50+ stakeholders
-    - Engineered 20+ automated ETL pipelines using Azure Data Factory, eliminating 15 hrs/week of manual work
-    - Led migration to event-driven pipelines using Kafka, increasing throughput by 40%
-    - Optimized PySpark jobs through partitioning and join tuning, cutting runtime by 35%
+    - Built ingestion and transformation layers for a cloud data lake on ADLS Gen2, bringing together 10+ retail source systems and centralizing reporting for 50+ stakeholders.
+    - Developed 20+ automated ETL pipelines in Azure Data Factory, cutting out 15 hours/week of manual reconciliation.
+    - Moved legacy batch workflows to event-driven pipelines on Kafka and Event Hubs, increasing throughput 40% on high-volume transactional data.
+    - Optimized PySpark job performance through partitioning and join tuning techniques, accelerating execution efficiency by 35%.
+    - Put forecasting and anomaly detection models (Prophet, Isolation Forest) into production pipelines, reducing inventory discrepancies 25%.
+    - Mentored 3 junior engineers on Airflow DAG design and Spark best practices, improving team delivery velocity by 20%.
+    
 
 - title: Data Engineer (Internship)
   company: Walmart
   location: USA
   period: May 2024 - Dec 2024
   bullets:
-    - Migrated retail datasets to Snowflake with Snowpipe, reducing query latency by 30%
-    - Built ETL workflows using PySpark and ADF, processing 2TB+ daily with 99.5% uptime
-    - Established automated validation checks resolving discrepancies across 3+ downstream systems
+    - Supported migration of retail datasets from on-prem SQL Server to Snowflake using Snowpipe and micro-partitioning, reducing query latency by 30%.
+    - Built end-to-end ETL workflows using PySpark and Azure Data Factory, processing 2TB+ daily batch loads with 99.5% uptime.
+    - Established automated data validation checks and unit testing using Python, resolving data discrepancies across 3+ downstream systems.
+    - Coordinated with senior engineers to diagnose pipeline failures, reducing mean time to resolution by 40% and improving workflow reliability.
+    
 
-- title: Data Engineer
+- title: Data Engineer (Intership)
   company: Maxgen Technologies
   location: India
   period: Aug 2021 - Jul 2023
   bullets:
-    - Modernized ETL from on-prem SQL Server to cloud-native Spark, boosting reliability by 30%
-    - Processed 5TB daily transactional records using HDFS and MapReduce with zero data loss
-    - Designed Star and Snowflake schemas with SCD, enabling 20% faster downstream analytics
+    - Migrated legacy ETL from on-prem SQL Server and Teradata to Spark workflows, improving daily job reliability 27%.
+    - Ingested and transformed 5TB/day of transactional records on HDFS with zero data loss.
+    - Designed a data quality validation framework using Python and Hive, achieving 99% data integrity across 5M+ records.
+    - Implemented Star and Snowflake schemas with SCD Type II, speeding up downstream analytics delivery 20%.
+    - Reduced storage costs by 20% by adopting Parquet and ORC formats with Snappy/Gzip compression strategies.
